@@ -1,7 +1,13 @@
 # ts-eslint-issue
 
+In VSCode, follow setup, and navigate to client/src/App.tsx. An error appears as shown below.
+
+![Error](./issue.png)
+
 ## Setup
 
-Install the recommended ESLint and Prettier extensions for VSCode. Ensure you're running the correct Node version by running `nvm use`. Then run `yarn install` to install dependencies.
+First, ensure you're running the correct Node version by running `nvm use`.
 
-Now run the setup instructions for each package.
+1. clone the repo
+2. `yarn install`
+3. `yarn lint`
